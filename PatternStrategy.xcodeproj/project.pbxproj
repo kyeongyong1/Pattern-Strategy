@@ -15,6 +15,9 @@
 		8FB8A9021F1E185A00FE3713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8A9001F1E185A00FE3713 /* LaunchScreen.storyboard */; };
 		8FB8A90D1F1E185A00FE3713 /* PatternStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8A90C1F1E185A00FE3713 /* PatternStrategyTests.swift */; };
 		8FB8A9181F1E185A00FE3713 /* PatternStrategyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8A9171F1E185A00FE3713 /* PatternStrategyUITests.swift */; };
+		8FB8A9261F1E191900FE3713 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8A9251F1E191900FE3713 /* Duck.swift */; };
+		8FB8A9281F1E196A00FE3713 /* DuckProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8A9271F1E196A00FE3713 /* DuckProtocol.swift */; };
+		8FB8A92A1F1E1CB300FE3713 /* ChildDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8A9291F1E1CB300FE3713 /* ChildDuck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8FB8A9131F1E185A00FE3713 /* PatternStrategyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternStrategyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB8A9171F1E185A00FE3713 /* PatternStrategyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternStrategyUITests.swift; sourceTree = "<group>"; };
 		8FB8A9191F1E185A00FE3713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB8A9251F1E191900FE3713 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		8FB8A9271F1E196A00FE3713 /* DuckProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuckProtocol.swift; sourceTree = "<group>"; };
+		8FB8A9291F1E1CB300FE3713 /* ChildDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildDuck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				8FB8A8F41F1E185A00FE3713 /* AppDelegate.swift */,
 				8FB8A8F61F1E185A00FE3713 /* ViewController.swift */,
+				8FB8A9251F1E191900FE3713 /* Duck.swift */,
+				8FB8A9291F1E1CB300FE3713 /* ChildDuck.swift */,
+				8FB8A9271F1E196A00FE3713 /* DuckProtocol.swift */,
 				8FB8A8F81F1E185A00FE3713 /* Main.storyboard */,
 				8FB8A8FE1F1E185A00FE3713 /* Assets.xcassets */,
 				8FB8A9001F1E185A00FE3713 /* LaunchScreen.storyboard */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB8A9261F1E191900FE3713 /* Duck.swift in Sources */,
 				8FB8A8F71F1E185A00FE3713 /* ViewController.swift in Sources */,
+				8FB8A9281F1E196A00FE3713 /* DuckProtocol.swift in Sources */,
 				8FB8A8FD1F1E185A00FE3713 /* PatternStrategy.xcdatamodeld in Sources */,
 				8FB8A8F51F1E185A00FE3713 /* AppDelegate.swift in Sources */,
+				8FB8A92A1F1E1CB300FE3713 /* ChildDuck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
